@@ -1,0 +1,706 @@
+ /*NAVBAR*/
+
+.offcanvas{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #1F2638!important;
+    
+    font-family: 'Alexandria', sans-serif;
+    text-align: center;
+  }
+  .navbar-toggler{
+    border-color: transparent!important;
+  }
+  .offcanvas .nav-item a{
+    font-size: 20px;
+    color: white;
+  
+  }
+  .offcanvas .nav-item a:hover{
+    color: #F5BF60;
+    transition: .2s;
+  
+  }
+  .offcanvas-title{
+    padding: 30px;
+    color: white;
+  }
+  .navbar{
+    font-family: 'Alexandria', sans-serif;
+  }
+
+ /*NAVBAR END*/
+
+ /* first*/
+.first{
+    width: 100%;
+    padding:  5vw;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  
+}
+
+.head{
+    z-index: 2;
+}
+.head #name{
+    padding-top: 5%;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10%;
+}
+.head h3{
+    margin-top: -15px;
+    padding-left: 10%;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 650;
+    font-size: 40px;
+
+}
+.head #description{
+    margin-top: -10px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 60%;
+    padding-left: 10%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 900px){
+  .self_pic img{
+    width: 200px!important;
+    margin-right: 80px!important;
+    top: 0;
+    bottom: 0;
+  }
+  .first{
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 300px){
+  .head h1{
+    font-size: 35px;
+  }
+ 
+}
+@media only screen and (max-width: 780px){
+  .self_pic img{
+    display: none;
+  }
+
+  body h1{
+    text-align: center!important;
+  }
+  body h2{
+    text-align: center!important;
+  }
+  .second{
+    height: 600px!important;
+
+  }
+  .second_sq1{
+    width: 88%!important;
+    height: 320px!important;
+  }
+  .second_sq1 h1{
+    font-size: 20px!important;
+  }
+  .second_sq1 p{
+    font-size: 15px!important;
+  }
+  .second_sq2{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .second_sq2 img{
+    width: 300px;
+    top: 300px!important;
+   
+
+  }
+
+}
+.self_pic img{
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    margin-right: 100px;
+   margin-bottom: 50px;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+.head .btn{
+    color: #F7F6F2!important;
+    margin-left: 10%;
+    font-weight: 650;
+    background-color: #1D2336!important;
+    border-color: #1D2336!important;
+    text-decoration: none;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 20px;
+  }
+.head .btn:hover{
+    background-color: #2d4058!important;
+    transition: all 0.5s;
+  }
+
+/* First END*/
+
+/* second */
+.second{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  
+}
+
+
+.second_sq1{
+    width: 45%;
+    background-color: #FCFDFD;
+    overflow: hidden;
+    height: 90%;
+    padding: 4%;
+    position: absolute;
+    z-index: 3;
+    left: 7%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 3px;
+
+    
+}
+#s_description{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 300; 
+    padding-right: 10px;
+    font-size: 16px;
+}
+.second_sq1 h1{
+    font-family: 'Alexandria', sans-serif;
+  padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+}
+.second_sq1 .btn{
+    color: white!important;
+
+    font-weight: 650;
+    background-color: #1C2336!important;
+    border-color: #1D2336!important;
+    text-decoration: none;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 15px;
+  }
+.second_sq1 .btn:hover{
+    background-color: #2D4058!important;
+    border-color: #2D4058!important;
+    transition: all 0.5s;
+  }
+
+.second_sq2{
+    width: 45%;
+    bottom: 0;
+    top: 0;
+   right: 0;
+    height: 90%; 
+    position: absolute;
+    z-index: 3;
+}
+.second_sq2 img{
+  right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 90%;
+}
+
+/* second END */
+
+/* third */
+
+.third{
+  padding-top: 3%;
+  padding-bottom: 30px;
+  
+}
+.services{
+ 
+    padding-left: 4%;
+    font-weight: 600;
+    font-family: 'Alexandria', sans-serif;
+}
+.portfolio{
+  padding-left: 4%;
+    font-weight: 600;
+    padding-top: 30px;
+    font-family: 'Alexandria', sans-serif;
+}
+.flex-container {
+
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 4%;
+    padding: 0;
+ 
+    list-style: none;
+  }
+ 
+  .modal-header{
+    background-color: #1F2638;
+    color: white;
+  }
+  .flex-item a{
+    text-decoration: none;
+  }
+  .flex-item {
+    background: white;
+    margin: 10px;
+    padding: 5px;
+    width: 380px;
+    border-radius: 5px;
+    text-align: center;
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 10px;
+  }
+  .flex-item:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    transition: all.2s;
+    animation-duration: 0.25s;
+    border-left: 8px solid #E7B427;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  #fifth:hover{
+    border-top-left-radius: none!important;
+    border-bottom-left-radius:none!important;
+    animation-name: none!important;
+    transition: none!important;
+    animation-duration: none!important;
+    border-left: none!important;
+    box-shadow: none!important;
+  }
+
+ .flex-item h1{
+    padding-top: 10%;
+    padding-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #212529;
+    font-weight: 800;
+    
+ }
+ .flex-item p{
+  padding: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #212529;
+  font-weight: 300;
+  }
+  @media only screen and (max-width: 900px){
+    #fifth{
+      text-align: center!important;
+      height: 200px!important;
+    }
+   
+  }
+  #fifth{
+    width: 800px!important;
+    background-color:transparent;
+    box-shadow: none;
+    padding: 35px;
+    margin: auto;
+    overflow: hidden;
+    height: 320px;
+
+  }
+  #fifth a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #212529;
+
+  }
+  #fifth a:hover{
+    color: goldenrod;
+    transition: all 0.5s;
+  }
+  #fifth h2{
+   margin-top: 12%; 
+    font-family: 'Alexandria', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+/* third END */
+#grid{
+  padding-top: 30px!important;
+  padding: 60px;
+}
+
+  
+  #grid video{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 3px;
+  }
+/*fourth*/
+.forth{
+height: 30vw;
+width: 100%;
+background-color: cyan;
+
+}
+
+
+/*fourth END*/
+
+
+.py-3 a{
+  color: #212529!important;
+}
+.py-3 p{
+  color: #212529!important;
+}
+#modal_1:hover {
+  background: linear-gradient(270deg, #ffffff, rgb(253, 241, 170), #ffffff, #ffffff);
+    background-size: 800% 800%;
+  
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#modal_2:hover {
+  background: linear-gradient(270deg, #ffffff, rgb(253, 241, 170), #ffffff, #ffffff);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#modal_3:hover {
+  background: linear-gradient(270deg, #ffffff, rgb(253, 241, 170), #ffffff, #ffffff);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#modal_4:hover {
+  background: linear-gradient(270deg, #ffffff, rgb(253, 241, 170), #ffffff, #ffffff);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#send{
+  background-color: #57A29F!important;
+  border-color: #57A29F!important;
+  color: white!important;
+}
+#send:hover{
+  background-color: #2e6664!important;
+  border-color: #2e6664!important;
+  color: white!important;
+}
+
+.third{
+  background: linear-gradient(183deg, #f7f6f2, #f7f6f2, #58A3A0);
+    background-size: 600% 600%;
+
+    -webkit-animation: animation3 10s ease infinite;
+    -moz-animation: animation3 10s ease infinite;
+    animation: animation3 10s ease infinite;
+}
+
+@-webkit-keyframes animation3 {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes animation3 {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes animation3 {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #1F2638!important;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.ourteam h1{
+  font-weight: 600;
+  font-size: 45px;
+  padding-top: 30px!important;
+  padding: 60px;
+  padding-bottom: 0!important;
+    font-family: 'Alexandria', sans-serif;
+}
+#team p{
+  font-weight: 300;
+  padding-left: 10px;
+    font-family: 'Alexandria', sans-serif;
+}
+.reviews{
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 60px;
+    font-family: 'Alexandria', sans-serif;
+}
+#carousel p{
+  padding-left: 5%;
+  font-size: 18px;  
+  padding-right: 4%;
+}
+#carousel{
+  padding-bottom: 60px;
+  height: 200px;
+
+  max-width: 100%;
+}
+@media only screen and (max-width: 780px){
+  #carousel{
+    height: 300px!important;
+  }
+ 
+}
+
+#contact{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#contact .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: #1B2435;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+#contact .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #1B2435;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+
+  margin-top: -102px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #1B2435;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #36445e;
+}
+
+@media (max-width: 950px) {
+  #contact{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  #contact .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  #contact{
+
+    height: 100%;
+  }
+  .right-side{
+    text-align: center;
+  }
+  .right-side .button{
+
+    text-align: center;
+  }
+  #contact .content{
+    flex-direction: column-reverse;
+  }
+  #contact .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ #contact .content .left-side::before{
+   display: none;
+ }
+ #contact .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
